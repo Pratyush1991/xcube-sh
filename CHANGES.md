@@ -6,6 +6,9 @@
   [Sentinel Hub instance on CDSE](https://dataspace.copernicus.eu/analyse/apis/sentinel-hub)
   with preconfigured auth and API endpoints. (#112)
 
+- Added a feature to allow a user to pass processing keyword arguments 
+  (`processing_kwargs`) for cubes configuration. (#114)
+
 - Fixed bugs related to collection id which caused 
   BYOC request to fail. The collection id are now assigned to
   `type` not under `data filter` during request and a `byoc-` 
